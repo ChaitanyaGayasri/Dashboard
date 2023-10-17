@@ -1,0 +1,69 @@
+.cover {
+  display: flex;
+}
+
+.sidebar {
+  padding: 20px;
+  width: 300px;
+  background-color: #002159;
+  height: 150vh;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.head {
+  font-size: 19px;
+  font-family: Roboto;
+  color: #ffffff;
+  text-align: center;
+}
+
+.sidebar-item {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.icon {
+  font-size: 19px;
+  color: white;
+  padding: 19px;
+}
+
+.icon-2 {
+  font-size: 19px;
+  color: white;
+  padding: 19px;
+}
+
+.icon-name {
+  font-family: Roboto;
+  font-size: 19px;
+  color: #ffffff;
+}
+
+.selected:hover {
+  background-color: #296eff;
+  border-radius: 8px;
+}
+
+.profile-pic {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  margin-right: 15px;
+}
+.side-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dash {
+  height: 25px;
+  width: 25px;
+  background-color: #ffffff;
+  margin-right: 24px;
+}

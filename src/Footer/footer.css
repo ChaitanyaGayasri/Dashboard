@@ -1,0 +1,29 @@
+.footer-container {
+  height: 250px;
+  width: 1100px;
+  border: 1px solid black;
+  background: transparent;
+  border-radius: 24px;
+}
+.product-sell {
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+}
+.sale {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dell {
+  height: 90px;
+  width: 150px;
+  border-radius: 16px;
+}
+.product-name {
+  display: flex;
+  justify-content: space-between;
+}

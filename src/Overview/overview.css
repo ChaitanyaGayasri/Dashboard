@@ -1,0 +1,115 @@
+.overview-container {
+  display: flex;
+  flex-direction: row;
+}
+.card {
+  border: 1px solid black;
+  border-radius: 8px;
+  height: 400px;
+  padding-top: 16px;
+  width: 850px;
+  margin: 24px;
+  background: transparent;
+  overflow-x: auto;
+}
+.button-1 {
+  border: none;
+  background: transparent;
+  background-color: whitesmoke;
+  border-radius: 6px;
+  height: 50px;
+  width: 110px;
+  border-radius: 10px;
+  border: none;
+}
+.symbol {
+  margin: 12px;
+}
+
+.overview-heading {
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.overview {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.card-1 {
+  border: 1px solid black;
+  border-radius: 8px;
+  height: 400px;
+  padding-top: 16px;
+  padding-left: 24px;
+  width: 400px;
+  margin: 24px;
+  background: transparent;
+  overflow: hidden;
+}
+
+.Monthly-head {
+  text-align: start;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 24px;
+  padding-left: 12px;
+}
+
+.button-2 {
+  background-color: whitesmoke;
+  height: 140px;
+  width: 50px;
+  border-radius: 16px;
+  margin: 16px;
+  border: none;
+}
+
+.button-3 {
+  background-color: rgb(81, 21, 245);
+  height: 180px;
+  width: 50px;
+  border-radius: 16px;
+  margin: 16px;
+  overflow-x: auto;
+}
+
+.button-4 {
+  background-color: whitesmoke;
+  height: 200px;
+  width: 50px;
+  border-radius: 16px;
+  margin: 16px;
+  overflow-x: auto;
+}
+
+.box-container {
+  display: flex;
+}
+
+.months {
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: lighter;
+}
+
+.product-box {
+  border: 1px solid black;
+  border-radius: 70px;
+  height: 200px;
+  width: 200px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-button {
+  height: 150px;
+  width: 150px;
+  border-radius: 48px;
+  background-color: none;
+}

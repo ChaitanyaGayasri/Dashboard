@@ -1,0 +1,32 @@
+.card-container {
+  padding-left: 24px;
+  padding-top: 24px;
+  display: flex;
+}
+
+.card-item {
+  border: 1px solid black;
+  border-radius: 8px;
+  height: 180px;
+  padding-top: 16px;
+  width: 250px;
+  margin: 24px;
+  background: transparent;
+}
+
+.button {
+  border: none;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: aqua;
+}
+
+.order {
+  margin: 8px;
+}
+.card-display {
+  display: flex;
+  padding-left: 16px;
+  align-items: center;
+}
